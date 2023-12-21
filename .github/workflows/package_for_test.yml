@@ -311,7 +311,7 @@ jobs:
         run: |
           tar -zcvf tmp.${{ matrix.os  }}.tar.gz packages/sync-test/tmp
       - name: Publish reports
-        if: failed()
+        if: failure()
         uses: actions/upload-artifact@v3
         with:
           name: jfoa-build-reports-${{ runner.os }}
