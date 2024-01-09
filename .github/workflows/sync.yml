@@ -11,9 +11,9 @@ jobs:
         node:
           - 18.12.0
         os:
-          # - macos-latest
+          - macos-latest
           # - ubuntu-20.04
-          - windows-2019
+          # - windows-2019
 
     runs-on: ${{ matrix.os }}
 
