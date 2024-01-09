@@ -1,6 +1,5 @@
 curl -O -L  http://github-test-logs.ckbapp.dev/neuron/sync/Neuron-v0.112.0-setup.exe
 move .\Neuron-*.exe Neuron-setup.exe
-@echo off
 REM 执行安装程序
 .\Neuron-setup.exe /S /D=D:\a\neuron\neuron\packages\sync-test\neuron
 
