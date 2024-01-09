@@ -1,4 +1,4 @@
-curl -O -L  http://github-test-logs.ckbapp.dev/neuron/sync/Neuron-v0.111.1-setup.exe
+curl -O -L  http://github-test-logs.ckbapp.dev/neuron/sync/Neuron-v0.112.0-setup.exe
 copy .\Neuron-*.exe Neuron-setup.exe
 @echo off
 REM 执行安装程序
