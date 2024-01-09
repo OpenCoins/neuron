@@ -1,4 +1,4 @@
-#wget http://github-test-logs.ckbapp.dev/neuron/sync/Neuron-v0.111.1-mac-x64.zip
+wget http://github-test-logs.ckbapp.dev/neuron/sync/Neuron-v0.111.1-mac-x64.zip
 cp Neuron*.zip Neuron.zip
 unzip Neuron.zip
 mv Neuron.app neuron
